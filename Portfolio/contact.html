@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Amara Cramer,contact.html,5/18/2023 -->
+<html lang="en">
+<head>
+	<title>Contact Information</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+	
+	<!-- Use the header area for the website name or logo -->
+	<header>
+		<h1>Contact Information</h1>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="growing.html">Growing Up with Art</a></li>
+		<li><a href="career.html">My Career Interests</a></li>
+		<li><a href="gallery.html">Art Gallery</a></li>
+		<li><a href="contact.html">Contact Info</a></li>
+		</ul>
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	
+		<div id="contact">
+			<h2>Ready to get started? Contact me today.</h2>
+			<h4 class="mobile tel-link"><a href="tel:3087654480">(308) 765-4480</a></h4>
+			<h4 class="tablet-desktop tel-num">(308)765-4480<h4>
+			<h4>Email me: <a href="mailto:acramer003@my.wilmu.edu" class="contact-mail-link">acramer003@my.wilmu.edu</a></h4>
+			<h4>My Educational Institution: Wilmington University- 320 N Dupont Hwy, New Castle, DE 19720</h4>
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.5631054476453!2d-75.58900482463808!3d39.682041371567195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703b048560cd5%3A0xdee9dd3f4f637375!2sWilmington%20University!5e0!3m2!1sen!2sus!4v1685126819490!5m2!1sen!2sus" width="600" height="450" allowfullscreen class="map"></iframe>
+		</div>
+		
+		<div id="form">
+		
+			<h2>Complete the form below to purchase prints.</h2>
+			
+			<form><!-- Start Form -->
+			
+				<fieldset>
+					<legend>Customer Information</legend>
+					<label for="fName">First Name:</label>
+					<input type="text" id="fName" name="fName" required>
+					
+					<label for="lName">Last Name:</label>
+					<input type="text" name="lName" id="lName" required>
+					
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" required>
+					
+					<label for="phone">Phone:</label>
+					<input type="tel" id="phone" name="phone" required>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Additional Information</legend>
+					<p>I would like more information about:</p>
+					
+					<label for="scenes"><input type="checkbox" name="interest" id="scenes" value="Behind the Scenes">Behind the Scenes</label>
+					<label for="paymentopt"><input type="checkbox" name="interest" id="paymentopt" value="Payment Options">Payment Options</label>
+					<label for="printmats"><input type="checkbox" name="interest" id="printmats" value="Purcahsed Print Materials">Purchased Print Material</label>
+					</fieldset>
+					
+					<fieldset>
+						<legend>Referral Source</legend>
+						<label for="reference"> How did you find me?</label>
+						<select name="reference" id="reference">
+							<option value="social">Social Media</option>
+							<option value="friend">Friend</option>
+							<option value="google">Google</option>
+							<option value="other">Other</option>
+						</select>
+						
+						<label for="questions">Questions?</label>
+						<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+					</fieldset>
+					
+					<input type="submit" id="submit" value="submit" class="btn">
+				
+			</form>
+	
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		<p>Wilmington Project</p>
+		<p>&rarr;<a href="mailto:acramer003@my.wilmu.edu">acramer003@my.wilmu.edu</a></p>
+	</footer>
+	
+	</div>
+
+</body>
+
+</html>
